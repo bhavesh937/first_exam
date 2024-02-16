@@ -190,22 +190,6 @@ class _HomeState extends State<Home> {
                     SizedBox(
                       height: 10.0,
                     ),
-                    //       Container(
-                    //         child: ListView.builder(
-                    //             shrinkWrap: true,
-                    //             physics: ClampingScrollPhysics(),
-                    //             itemCount: articles.length,
-                    //             itemBuilder: (context, index) {
-                    //               return BlogTile(
-                    //                   url: articles[index].url!,
-                    //                   desc: articles[index].description!,
-                    //                   imageUrl: articles[index].urlToImage!,
-                    //                   title: articles[index].title!);
-                    //             }),
-                    //       )
-                    //     ],
-                    //   ),
-                    // ),
                     loading2
                         ? Center(child: CircularProgressIndicator())
                         : CarouselSlider.builder(
